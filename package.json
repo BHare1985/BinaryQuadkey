@@ -1,0 +1,24 @@
+{
+    "name": "binaryquadkey",
+    "version": "0.0.1",
+    "description": "Class that can represent binary Quadkeys",
+    "author": "Brian Hare",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/BHare1985/BinaryQuadkey.git"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "doc": "jsdoc2md --property-list-format table binaryquadkey.js > README.md",
+        "test": "mocha test/*.js",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "long" : "3.0.1"
+    },
+    "devDependencies": {
+        "mocha": "2.2.5",
+        "should": "4.6.4"
+    }
+}
